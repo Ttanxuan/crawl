@@ -17,7 +17,7 @@
 
 # 17k_com
 ## MyMongoDB.py
-调用pymongodb库，方便使用。
+调用pymongo库，方便使用。
 
 ## get_acw_sc__v2.js
 更新cookie。
