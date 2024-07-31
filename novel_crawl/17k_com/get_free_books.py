@@ -112,6 +112,8 @@ if __name__ == '__main__':
     arg1 = re_rule['arg1'].findall(res_text)
     get_book_list(arg1,my_html)     # 得到小说的url
 
+
+    exit()
     CSV_FILE = './book_url_list.csv'
     setup_csv()
 
