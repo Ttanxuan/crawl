@@ -1,3 +1,16 @@
+# 17k_com
+**MyMongoDB.py：**
+利用pymongo库封装MongoDB，方便调用。
+
+**get_acw_sc__v2.js：**
+每一个ip的cookie都具有时效性，当失效后需要重新获得cookie。
+
+**get_free_books.py：**
+获得多部小说的url并存储到csv文件中。
+
+**get_chapter.py：**
+先获得小说各个章节的url，再利用anyscio和aiohttp库实现异步请求小说章节内容，然后将数据储存到MongoDB中。
+
 # 免责声明：
 
 1. 本项目是基于当前现状提供的，没有任何明示或者暗示的保证，包括但不限于适销性、特定用途适用性以及非侵权性。
@@ -9,24 +22,6 @@
 4. 本项目可能包含指向第三方网站或资源的链接，作者对这些资源的可用性和内容不承担责任。
 
 5. 作者保留随时更改项目内容和免责声明的权利。使用本项目即被视为接受这些条款和条件。
-
-
-# some codes
-包含一些练习用的小脚本
-
-
-# 17k_com
-**MyMongoDB.py**
-利用pymongo库封装MongoDB，方便调用。
-
-**get_acw_sc__v2.js**
-每一个ip的cookie都具有时效性，当失效后需要重新获得cookie。
-
-**get_free_books.py**
-获得多部小说的url并存储到csv文件中。
-
-**get_chapter.py**
-先获得小说各个章节的url，再利用anyscio和aiohttp库实现异步请求小说章节内容，然后将数据储存到MongoDB中。
 
 
 
