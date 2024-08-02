@@ -16,16 +16,16 @@
 
 
 # 17k_com
-## MyMongoDB.py
+**MyMongoDB.py**
 调用pymongo库，方便使用。
 
-## get_acw_sc__v2.js
+**get_acw_sc__v2.js**
 更新cookie。
 
-## get_free_books.py
+**get_free_books.py**
 请求得到所爬小说的url，将url存储在csv文件中。
 
-## get_chapter.py
+**get_chapter.py**
 利用anyscio和aiohttp库实现异步请求小说章节，然后将数据储存到MongoDB中。
 
 
